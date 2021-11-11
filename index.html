@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Sound Controlled Cars</title>
+</head>
+<body>
+    <center>
+        <br>
+        <hr>
+        <div id="one" class="header-div">Sound controlled cars</div>
+
+        <button class="btn btn-success" onclick="startClassifying()">Start recording sound</button>
+           <br>
+           <h3 id="result_label">I can hear: </h3>
+           <br>
+           <h4 id="result_confidence">Accuracy amount: </h4>
+           <br>
+           <img src="braap rx7.jpeg" id="car1" width="400px" height="300px">
+           <img src="dis silvia.jpeg" id="car2" width="500px" height="300px">
+           <img src="dis supra.jpeg" id="car3" width="500px" height="300px">
+           <img src="motul skyline gtr r34 gran turismo.jpeg" id="car4" width="500px" height="300px">
+        
+           <div class="footer-copyright" id="footer">Made by Adway Patsute</div>
+    </center> 
+    <script src="main.js"></script> 
+</body>
+</html>
